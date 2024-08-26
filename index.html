@@ -43,6 +43,7 @@
           extend: {
             colors: {
               primary: "#b68c5a",
+              secondary: "#F3F3F3",
             },
           },
         },
@@ -120,7 +121,7 @@
               </h1>
               <p class="mb-8 text-gray-300">
                 There are many variations of passages of Lorem Ipsum available,
-                but the majority <br />
+                but the majority <br class="hidden lg:block" />
                 have suffered alteration in some form, by injected humour.
               </p>
               <div class="flex items-center justify-center">
@@ -151,7 +152,7 @@
           </h1>
           <p class="text-gray-500 mb-16">
             There are many variations of passages of Lorem Ipsum available, but
-            the majority have <br />
+            the majority have <br class="hidden lg:block" />
             suffered alteration in some form, by injected humour.
           </p>
         </div>
@@ -283,7 +284,7 @@
           </h1>
           <p class="text-gray-500 mb-16">
             There are many variations of passages of Lorem Ipsum available, but
-            the majority have <br />
+            the majority have <br class="hidden lg:block" />
             suffered alteration in some form, by injected humour.
           </p>
         </div>
@@ -298,9 +299,10 @@
               </div>
               <div class="collapse-content">
                 <p>
-                  There are many variations of passages of Lorem Ipsum <br />
+                  There are many variations of passages of Lorem Ipsum
+                  <br class="hidden lg:block" />
                   available, but the majority have suffered alteration in some
-                  <br />
+                  <br class="hidden lg:block" />
                   form, by injected humour.
                 </p>
               </div>
@@ -312,9 +314,10 @@
               </div>
               <div class="collapse-content">
                 <p>
-                  There are many variations of passages of Lorem Ipsum <br />
+                  There are many variations of passages of Lorem Ipsum
+                  <br class="hidden lg:block" />
                   available, but the majority have suffered alteration in some
-                  <br />
+                  <br class="hidden lg:block" />
                   form, by injected humour.
                 </p>
               </div>
@@ -326,9 +329,10 @@
               </div>
               <div class="collapse-content">
                 <p>
-                  There are many variations of passages of Lorem Ipsum <br />
+                  There are many variations of passages of Lorem Ipsum
+                  <br class="hidden lg:block" />
                   available, but the majority have suffered alteration in some
-                  <br />
+                  <br class="hidden lg:block" />
                   form, by injected humour.
                 </p>
               </div>
@@ -340,9 +344,10 @@
               </div>
               <div class="collapse-content">
                 <p>
-                  There are many variations of passages of Lorem Ipsum <br />
+                  There are many variations of passages of Lorem Ipsum
+                  <br class="hidden lg:block" />
                   available, but the majority have suffered alteration in some
-                  <br />
+                  <br class="hidden lg:block" />
                   form, by injected humour.
                 </p>
               </div>
@@ -364,7 +369,7 @@
           </h1>
           <p class="text-gray-500 mb-16">
             There are many variations of passages of Lorem Ipsum available, but
-            the majority have <br />
+            the majority have <br class="hidden lg:block" />
             suffered alteration in some form, by injected humour.
           </p>
         </div>
@@ -372,7 +377,9 @@
         <div class="carousel w-full h-[500px] rounded-lg">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="images/slider-1.jpg " class="w-full brightness-50" />
-            <div class="absolute bottom-32 left-48 text-white text-center">
+            <div
+              class="absolute bottom-6 sm:bottom-14 lg:bottom-28 lg:left-48 text-white text-center"
+            >
               <img
                 class="w-24 h-24 mx-auto border-white border-2 rounded-full mb-5"
                 src="images/arif.png"
@@ -381,11 +388,13 @@
 
               <h2 class="text-2xl font-extraboldbold mb-1">Arif Hassan</h2>
               <h3 class="text-gray-300">Web developer</h3>
-              <p class="mt-6 text-gray-300">
+              <p class="p-6 text-gray-300">
                 Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin <br />
+                text. It has roots in a piece of classical Latin
+                <br class="hidden lg:block" />
                 literature from 45 BC, making it over 2000 years old. Richard
-                McClintock, a Latin professor at Hampden-Sydney <br />
+                McClintock, a Latin professor at Hampden-Sydney
+                <br class="hidden lg:block" />
                 College in Virginia, looked up one of the more obscure Latin
                 words, consectetur.
               </p>
@@ -399,7 +408,9 @@
           </div>
           <div id="slide2" class="carousel-item relative w-full">
             <img src="images/slider-2.jpg" class="w-full brightness-50" />
-            <div class="absolute bottom-32 left-48 text-white text-center">
+            <div
+              class="absolute bottom-6 sm:bottom-14 lg:bottom-28 lg:left-48 text-white text-center"
+            >
               <img
                 class="w-24 h-24 mx-auto border-white border-2 rounded-full mb-5"
                 src="images/arif.png"
@@ -408,7 +419,7 @@
 
               <h2 class="text-2xl font-extraboldbold mb-1">Arif Hassan</h2>
               <h3 class="text-gray-300">Web developer</h3>
-              <p class="mt-6 text-gray-300">
+              <p class="p-6 text-gray-300">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin <br />
                 literature from 45 BC, making it over 2000 years old. Richard
@@ -417,24 +428,7 @@
                 words, consectetur.
               </p>
             </div>
-            <div class="absolute bottom-32 left-48 text-white text-center">
-              <img
-                class="w-24 h-24 mx-auto border-white border-2 rounded-full mb-5"
-                src="images/arif.png"
-                alt=""
-              />
 
-              <h2 class="text-2xl font-extraboldbold mb-1">Arif Hassan</h2>
-              <h3 class="text-gray-300">Web developer</h3>
-              <p class="mt-6 text-gray-300">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin <br />
-                literature from 45 BC, making it over 2000 years old. Richard
-                McClintock, a Latin professor at Hampden-Sydney <br />
-                College in Virginia, looked up one of the more obscure Latin
-                words, consectetur.
-              </p>
-            </div>
             <div
               class="absolute left-10 right-10 top-1/2 flex -translate-y-1/2 transform justify-between text-white"
             >
@@ -444,7 +438,9 @@
           </div>
           <div id="slide3" class="carousel-item relative w-full">
             <img src="images/slider-3.jpg" class="w-full brightness-50" />
-            <div class="absolute bottom-32 left-48 text-white text-center">
+            <div
+              class="absolute bottom-6 sm:bottom-14 lg:bottom-28 lg:left-48 text-white text-center"
+            >
               <img
                 class="w-24 h-24 mx-auto border-white border-2 rounded-full mb-5"
                 src="images/arif.png"
@@ -453,7 +449,7 @@
 
               <h2 class="text-2xl font-extraboldbold mb-1">Arif Hassan</h2>
               <h3 class="text-gray-300">Web developer</h3>
-              <p class="mt-6 text-gray-300">
+              <p class="p-6 text-gray-300">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin <br />
                 literature from 45 BC, making it over 2000 years old. Richard
@@ -473,7 +469,105 @@
       </section>
 
       <!-- Contact section start -->
-      <section class="mt-28"></section>
+      <section class="mt-28 mb-28">
+        <!-- Contact top -->
+        <div class="text-center">
+          <h1 class="garamond text-4xl font-extrabold mb-4">Contact With Us</h1>
+          <p class="text-gray-500 mb-16">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have <br class="hidden lg:block" />
+            suffered alteration in some form, by injected humour.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <!-- cards -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-0">
+            <!-- card 1 -->
+            <div
+              class="text-center bg-secondary p-6 lg:p-16 border-[#CFCFCF] border-r border-b"
+            >
+              <i class="fa-light fa-location-dot text-primary text-3xl"></i>
+              <h2 class="mt-4 mb-4 font-semibold text-2xl">Address</h2>
+              <p class="text-gray-500">
+                A108 Adam Street,<br />
+                New York, NY 535022
+              </p>
+            </div>
+            <!-- card 2 -->
+            <div class="text-center bg-secondary p-6 lg:p-16">
+              <i class="fa-thin fa-phone text-primary text-3xl"></i>
+              <h2 class="mt-4 mb-4 font-semibold text-2xl">Call Us</h2>
+              <p class="text-gray-500">
+                +88 01960-606195<br />
+                +88 01760-609556
+              </p>
+            </div>
+            <!-- card 3 -->
+            <div class="text-center bg-secondary p-6 lg:p-16">
+              <i class="fa-light fa-envelope text-primary text-3xl"></i>
+              <h2 class="mt-4 mb-4 font-semibold text-2xl">Email Us</h2>
+              <p class="text-gray-500">
+                arifskypro@gmail.com<br />
+                arifsky29@gmail.com
+              </p>
+            </div>
+            <!-- card 3 -->
+            <div
+              class="text-center bg-secondary p-6 lg:p-16 border-[#CFCFCF] border-t border-l"
+            >
+              <i class="fa-light fa-clock text-primary text-3xl"></i>
+              <h2 class="mt-4 mb-4 font-semibold text-2xl">Working Hours</h2>
+              <p class="text-gray-500">
+                Mon-Fri: 9AM to 5PM <br />
+                Sunday: 9AM to 1 PM
+              </p>
+            </div>
+          </div>
+          <!-- User Input -->
+          <div>
+            <div class="mb-8">
+              <input
+                class="bg-secondary p-5 rounded-lg focus:outline-none w-full"
+                type="text"
+                name=""
+                id=""
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="mb-8">
+              <input
+                class="bg-secondary p-5 rounded-lg focus:outline-none w-full"
+                type="text"
+                name=""
+                id=""
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="mb-8">
+              <input
+                class="bg-secondary p-5 rounded-lg focus:outline-none w-full"
+                type="text"
+                name=""
+                id=""
+                placeholder="Subject"
+              />
+            </div>
+
+            <div>
+              <textarea
+                class="bg-secondary p-5 rounded-lg w-full focus:outline-none"
+                name=""
+                id=""
+                placeholder="Your Message"
+                rows="6"
+              ></textarea>
+            </div>
+            <div class="mt-8">
+              <button class="btn bg-primary text-white w-full">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer section -->
     <footer></footer>
